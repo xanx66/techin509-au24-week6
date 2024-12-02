@@ -5,15 +5,20 @@ This is a tic tac toe game playable in the terminal
 # How to play
 1. Make sure you have Python installed
 
-## How to Develop
-
-### Setup fresh development environment
+# Setup Environment
 '''
-# create empty git repo on GitHub
+git clone https://github.com/xanx66/techin509-au24-week6.git
 
-### Setup Environment for de
+cd techin509-au24-week6/tictactoe
 
+python3 -m venv venv
 
-### Setup Environment
+source venv/bin/activate
+
+pip install -r requirements.txt
 '''
-git clone
+
+# Play game.py
+```bash
+python3 game.py
+```
